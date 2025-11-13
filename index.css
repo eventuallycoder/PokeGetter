@@ -1,6 +1,11 @@
 body
 {
-    background-color:black;
+    background-image: url("imgs/backgroundImg.webp");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    margin:0;       
 }
 
 .flex-container
@@ -13,9 +18,9 @@ body
 
 .center-flex
 {
-width:50%;
+width:35%;
 background-color: red;
 text-align: center;
-padding:20px;
+padding:100px;
 border: 20px solid yellow;
 }
