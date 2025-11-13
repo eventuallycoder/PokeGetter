@@ -1,0 +1,21 @@
+body
+{
+    background-color:black;
+}
+
+.flex-container
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.center-flex
+{
+width:50%;
+background-color: red;
+text-align: center;
+padding:20px;
+border: 20px solid yellow;
+}
